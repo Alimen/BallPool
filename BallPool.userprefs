@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PauseScreen.js">
+    <Files>
+      <File FileName="Assets\Scripts\MainCharacter.js" Line="14" Column="71" />
+      <File FileName="Assets\Scripts\GameManager.js" Line="46" Column="29" />
+      <File FileName="Assets\Scripts\PauseScreen.js" Line="5" Column="174" />
+      <File FileName="Assets\Scripts\SecondCamera.js" Line="10" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
