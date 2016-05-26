@@ -1,6 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\SampleOnTheRoad\Assets\GeneralScripts\CameraMovements.cs">
+    <Files>
+      <File FileName="..\SampleOnTheRoad\Assets\GeneralScripts\CameraMovements.cs" Line="21" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

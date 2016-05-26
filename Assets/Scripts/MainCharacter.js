@@ -49,7 +49,7 @@ function Update() {
 		}
 	}
 	var offset : float = (parseInt(state)+frame)*0.2;
-	renderer.material.SetTextureOffset("_MainTex", Vector2(offset, 0));
+	GetComponent.<Renderer>().material.SetTextureOffset("_MainTex", Vector2(offset, 0));
 }
 
 function FixedUpdate() {
@@ -58,11 +58,11 @@ function FixedUpdate() {
 	}
 	
 	if(jumped) {
-		rigidbody.velocity.y = 9;
+		GetComponent.<Rigidbody>().velocity.y = 9;
 		jumped = false;
 	}
-	rigidbody.MovePosition(rigidbody.position + currentDirection*Time.deltaTime*5);
-	rigidbody.velocity.x = 0;
+	GetComponent.<Rigidbody>().MovePosition(GetComponent.<Rigidbody>().position + currentDirection*Time.deltaTime*5);
+	GetComponent.<Rigidbody>().velocity.x = 0;
 }
 
 function changeState(input : characterState) {
